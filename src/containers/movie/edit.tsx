@@ -45,7 +45,7 @@ class EditScreeen extends React.Component<
             <Text style={styles.headingText}>{this.state.movie.title}</Text>
             <View style={styles.innerContainer}>
               <AppTextInput
-                placeholder="Title"
+                placeholder="Title hu"
                 style={styles.input}
                 label="Title"
                 getText={(text: string) => {
